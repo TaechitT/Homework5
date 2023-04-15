@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* background-color: aquamarine; */
 }
 a{
     text-decoration: none;
@@ -116,4 +117,46 @@ a:hover{
 .footer{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+/* blog */
+.contenpage2{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
+.topicpage2{
+    display: flex;
+    width: 65%;
+}
+.box2page2{
+    text-align: left;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+/* page3 */
+.contenpage3{
+    text-align: center;
+    width: 65%;
+    margin: auto;  
+}
+
+.topicpage3{
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: flex-start;
+}
+.page3content{
+    margin-bottom: 16px;
+}
+.workbox3 img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+.workbox3{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
